@@ -7,4 +7,5 @@ Task 1 💻
 
 
 Task 2: https://github.com/MariaRus/Final_Task2_API_Tests
+
 Task 3: https://github.com/MariaRus/Final_Task3_UI_Tests_Playwright
