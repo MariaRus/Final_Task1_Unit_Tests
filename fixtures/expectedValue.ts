@@ -6,12 +6,10 @@ export const EXPECTED_VALUE = {
     expectedFirstPositivePhoneNumber: `${INPUT_VALUE.inputFirstPositivePhoneNumber} ${MESSAGES.positivePhoneNumber}`,
     expectedSecondNegativePhoneNumber: `${INPUT_VALUE.inputSecondNegativePhoneNumber} ${MESSAGES.negativePhoneNumber}`,
     expectedSecondPositivePhoneNumber: `${INPUT_VALUE.inputSecondPositivePhoneNumber} ${MESSAGES.positivePhoneNumber}`,
-
     expectedFirstNegativeEmail: `${INPUT_VALUE.inputFirstNegativeEmail} ${MESSAGES.negativeEmail}`,
     expectedFirstPositiveEmail: `${INPUT_VALUE.inputFirstPositiveEmail} ${MESSAGES.positiveEmail}`,
     expectedSecondNegativeEmail: `${INPUT_VALUE.inputSecondNegativeEmail} ${MESSAGES.negativeEmail}`,
     expectedSecondPositiveEmail: `${INPUT_VALUE.inputSecondPositiveEmail} ${MESSAGES.positiveEmail}`,
-
     expectedFirstNegativePassword: `${INPUT_VALUE.inputFirstNegativePassword} ${MESSAGES.negativePassword}`,
     expectedFirstPositivePassword: `${INPUT_VALUE.inputFirstPositivePassword} ${MESSAGES.positivePassword}`,
     expectedSecondNegativePassword: `${INPUT_VALUE.inputSecondNegativePassword} ${MESSAGES.negativePassword}`,

@@ -1,5 +1,5 @@
 import {
-    REGEX_PHONENUMBER,
+    REGEX_PHONE_NUMBER,
     REGEX_EMAIL,
     REGEX_PASSWORD,
 } from "../fixtures/regex";
@@ -7,7 +7,7 @@ import { MESSAGES } from "../fixtures/expectedMessages";
 
 export class RegistrationForm {
     static ValidatePhoneNumber(inputPhoneNumber: string): string {
-        if (inputPhoneNumber.match(REGEX_PHONENUMBER)) {
+        if (inputPhoneNumber.match(REGEX_PHONE_NUMBER)) {
             return `${inputPhoneNumber} ${MESSAGES.positivePhoneNumber}`;
         } else {
             return `${inputPhoneNumber} ${MESSAGES.negativePhoneNumber}`;
